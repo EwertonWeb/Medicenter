@@ -237,10 +237,11 @@ footer {
 }
 .footer_menu {
     display: flex; 
+    
 }
 .fm_1, .fm_2, .fm_3 {
     flex: 1;
-    color: #fff;
+    color: #fff; 
 }
 .fm_1 {
     background-color: #39aae1;
@@ -257,6 +258,30 @@ footer {
     padding: 20px;
     color: #fff;
 }
+.fm1_title {
+    font-size: 20px;
+}
+.fm2_title {
+    font-size: 20px;
+}
+.fm3_title {
+    font-size: 20px;
+}
+.fm1_desc{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fm2_desc{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fm3_desc{
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .footer_area {
     display: flex;
 }
@@ -264,11 +289,76 @@ footer {
     flex: 1;
     color: #fff;
 }
-.flexcolumn {
+.FlexColumn {
     flex-direction: column;
 }
 footer .widget_title_text {
     color: #fff;
+}
+.medi_text{
+    font-size: 14px;
+    color: #909090;
+    margin-top: 30px;
+    margin-right: 37px;
+}
+.medi_street{
+    font-size: 14px;
+    color: #909090;
+    margin-top: 30px;
+    width: 130px;  
+}
+.posts_1 {
+    font-size: 14px;
+    color: #fff;
+}
+.posts_2{
+    font-size: 13px;
+    color: #42b3e5;
+    margin-top: 9px;
+}
+.posts_3 {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 30px;
+}
+.posts_4 {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 30px;
+}
+.tweets_1{
+    font-size: 14px;
+    color: #909090;
+}
+.tweets_1 a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+.tweets_day{
+    font-size: 13px;
+    color: #42b3e5;
+    margin-top: 9px;
+}
+.tweets_2 {
+    font-size: 14px;
+    color: #909090;
+    margin-top: 30px;
+}
+.tweets_2 a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+.tweets_3 {
+    font-size: 14px;
+    color: #909090;
+    margin-top: 30px;
+}
+.tweets_3 a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
 }
 .footer_copy {
     border-top: 1px solid #2c2c2c;
