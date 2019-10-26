@@ -305,7 +305,7 @@ footer .widget_title_text {
     font-size: 14px;
     color: #909090;
     margin-top: 30px;
-    width: 130px;  
+    width: 120px;  
 }
 .posts_1 {
     font-size: 14px;
@@ -360,6 +360,16 @@ footer .widget_title_text {
     color: #fff;
     text-decoration: none;
 }
+.medi_images{
+    margin-top: 30px;
+    
+}
+.medi_images img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
 .footer_copy {
     border-top: 1px solid #2c2c2c;
     height: 40px;
